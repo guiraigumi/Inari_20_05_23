@@ -32,6 +32,7 @@ public class Dialogue_Profesor3 : MonoBehaviour
 
     [SerializeField] private GameObject npc1; // Assign in inspector
     [SerializeField] private GameObject npc2; // Assign in inspector
+    public GameObject[] objectsToActivate;
 
     void Awake()
     {
@@ -83,6 +84,10 @@ public class Dialogue_Profesor3 : MonoBehaviour
 
         npc.transform.LookAt(targetPosition);
         player.isplayerTalking = true;
+        foreach (GameObject obj in objectsToActivate)
+        {
+            obj.SetActive(false);
+        }
     }
 
 
@@ -107,6 +112,10 @@ public class Dialogue_Profesor3 : MonoBehaviour
 
             npc.transform.SetPositionAndRotation(new Vector3(npc.transform.position.x, npc.transform.position.y, npc.transform.position.z), originalYRotation);
             player.isplayerTalking = false;
+            foreach (GameObject obj in objectsToActivate)
+            {
+                obj.SetActive(true);
+            }
             //Time.timeScale = 1f;
         }
     }

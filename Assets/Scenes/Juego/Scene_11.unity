@@ -16604,7 +16604,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 993158798}
-  - component: {fileID: 993158799}
   m_Layer: 0
   m_Name: PlayBGM
   m_TagString: Untagged
@@ -16627,18 +16626,6 @@ Transform:
   m_Father: {fileID: 1878633825}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &993158799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993158797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11d42266b6027204ba7e1ca44e60b9d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &996434064
 GameObject:
   m_ObjectHideFlags: 0
@@ -25125,7 +25112,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1750083753}
   - component: {fileID: 1750083752}
-  - component: {fileID: 1750083750}
   m_Layer: 0
   m_Name: BGMManager1
   m_TagString: Untagged
@@ -25133,18 +25119,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1750083750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750083749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05fa1a9ccfd39da439af2454a57ad133, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1750083752
 AudioSource:
   m_ObjectHideFlags: 0

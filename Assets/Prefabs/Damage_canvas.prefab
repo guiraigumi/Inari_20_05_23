@@ -65,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 6860316726291821320, guid: 22b0ef08f64f57243a49e77549fa18c8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.297
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860316726291821320, guid: 22b0ef08f64f57243a49e77549fa18c8,
         type: 3}
@@ -90,12 +90,12 @@ PrefabInstance:
     - target: {fileID: 6860316726291821320, guid: 22b0ef08f64f57243a49e77549fa18c8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 23.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860316726291821320, guid: 22b0ef08f64f57243a49e77549fa18c8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860316726291821320, guid: 22b0ef08f64f57243a49e77549fa18c8,
         type: 3}
@@ -120,12 +120,17 @@ PrefabInstance:
     - target: {fileID: 6860316726291821332, guid: 22b0ef08f64f57243a49e77549fa18c8,
         type: 3}
       propertyPath: m_Name
-      value: Damage_Canvas
+      value: Damage_canvas
       objectReference: {fileID: 0}
     - target: {fileID: 6860316726291821332, guid: 22b0ef08f64f57243a49e77549fa18c8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860316726291821333, guid: 22b0ef08f64f57243a49e77549fa18c8,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 8388607
       objectReference: {fileID: 0}
     - target: {fileID: 6860316726291821334, guid: 22b0ef08f64f57243a49e77549fa18c8,
         type: 3}

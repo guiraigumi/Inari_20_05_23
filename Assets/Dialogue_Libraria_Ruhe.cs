@@ -82,7 +82,7 @@ public class Dialogue_Libraria_Ruhe : MonoBehaviour
 
         StartCoroutine(ShowLine());
         target = GameObject.Find("Front");
-        npc = GameObject.Find("Profesor");
+        npc = GameObject.Find("Bibliotecaria");
         originalYRotation = npc.transform.rotation;
         Debug.Log("Rotation NPC: " + originalYRotation);
         Vector3 targetPosition = new Vector3(target.transform.position.x, transform.position.y, target.transform.position.z);
@@ -109,10 +109,11 @@ public class Dialogue_Libraria_Ruhe : MonoBehaviour
             librariaTalking.SetActive(false);
             anim.SetBool("isTalking", false);
             anim2.SetBool("isTalking", false);
-            npc = GameObject.Find("Profesor");
+            npc = GameObject.Find("Bibliotecaria");
 
             npc.transform.SetPositionAndRotation(new Vector3(npc.transform.position.x, npc.transform.position.y, npc.transform.position.z), originalYRotation);
             player1.isplayerTalking = false;
+
             //Time.timeScale = 1f;
         }
 
@@ -196,7 +197,7 @@ public class Dialogue_Libraria_Ruhe : MonoBehaviour
                 RawImage.SetActive(false);
                 anim.SetBool("isTalking", false);
                 anim2.SetBool("isTalking", false);
-                npc = GameObject.Find("Profesor");
+                npc = GameObject.Find("Bibliotecaria");
 
                 npc.transform.SetPositionAndRotation(new Vector3(npc.transform.position.x, npc.transform.position.y, npc.transform.position.z), originalYRotation);
                 player1.isplayerTalking = false;

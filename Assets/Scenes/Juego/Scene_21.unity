@@ -1709,7 +1709,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493703689}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 067a57888fc4b074f835fd6ca8e26f3f, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 47efd28b43b399844b9aaf8acfaff980, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -5625,6 +5625,7 @@ MonoBehaviour:
   fireSFX: {fileID: 8300000, guid: 008357afeb7cb824684555832a67f412, type: 3}
   fallingSFX: {fileID: 0}
   rewardSFX: {fileID: 0}
+  keySFX: {fileID: 0}
 --- !u!82 &1106058878
 AudioSource:
   m_ObjectHideFlags: 0

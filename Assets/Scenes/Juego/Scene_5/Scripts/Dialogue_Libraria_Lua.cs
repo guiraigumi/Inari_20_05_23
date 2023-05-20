@@ -87,6 +87,7 @@ public class Dialogue_Libraria_Lua : MonoBehaviour
 
         npc.transform.LookAt(targetPosition);
         player.isplayerTalking = true;
+
     }
 
 
@@ -111,6 +112,7 @@ public class Dialogue_Libraria_Lua : MonoBehaviour
 
             npc.transform.SetPositionAndRotation(new Vector3(npc.transform.position.x, npc.transform.position.y, npc.transform.position.z), originalYRotation);
             player.isplayerTalking = false;
+            
             //Time.timeScale = 1f;
         }
 

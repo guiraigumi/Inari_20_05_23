@@ -89,6 +89,7 @@ public class Dialogue_profesor_Ruhe : MonoBehaviour
 
         npc.transform.LookAt(targetPosition);
         player1.isplayerTalking = true;
+
     }
 
 
@@ -113,6 +114,7 @@ public class Dialogue_profesor_Ruhe : MonoBehaviour
 
             npc.transform.SetPositionAndRotation(new Vector3(npc.transform.position.x, npc.transform.position.y, npc.transform.position.z), originalYRotation);
             player1.isplayerTalking = false;
+            
             //Time.timeScale = 1f;
         }
 

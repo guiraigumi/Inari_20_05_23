@@ -28,6 +28,8 @@ public class Dialogue_mirador_Hangin2 : MonoBehaviour
     [SerializeField] private GameObject RawImage;
     [SerializeField] private GameObject librariaTalking;
     public GameObject objectToActivate;
+    public GameObject objectToDeactivate;
+    public GameObject musicToActivate;
     public bool conversationEnded = false;
     private BGMManager bgmManager;
     private SFXManager sfxManager;
@@ -84,6 +86,8 @@ public class Dialogue_mirador_Hangin2 : MonoBehaviour
         backgroundImage.SetActive(true);
         RawImage.SetActive(true);
         librariaTalking.SetActive(true);
+        musicToActivate.SetActive(true);
+        objectToDeactivate.SetActive(false);
         lineIndex = 0;
 
         StartCoroutine(ShowLine());
@@ -108,7 +112,7 @@ public class Dialogue_mirador_Hangin2 : MonoBehaviour
             dialoguePanel.SetActive(false);
             backgroundImage.SetActive(false);
             RawImage.SetActive(false);
-            librariaTalking.SetActive(false);
+            objectToActivate.SetActive(true);
             anim.SetBool("isTalking", false);
             anim2.SetBool("isTalking", false);
             anim3.SetBool("isTalking", false);

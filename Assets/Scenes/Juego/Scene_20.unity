@@ -5827,6 +5827,8 @@ MonoBehaviour:
   Tatami: {fileID: 8300000, guid: b2d30efdb78fbde49b29e68db3b097a7, type: 3}
   Ice: {fileID: 0}
   Dirt: {fileID: 0}
+  Wood: {fileID: 0}
+  Grass: {fileID: 0}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -5840,6 +5842,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   dirtLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  woodLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  grassLayer:
     serializedVersion: 2
     m_Bits: 0
   checkPoint: {fileID: 1036608359}
@@ -7376,6 +7384,7 @@ MonoBehaviour:
   fireSFX: {fileID: 8300000, guid: 008357afeb7cb824684555832a67f412, type: 3}
   fallingSFX: {fileID: 0}
   rewardSFX: {fileID: 0}
+  keySFX: {fileID: 0}
 --- !u!82 &1106058878
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8790,7 +8799,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609383786}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 947b77285a46e394badb405368981738, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 20c6d47edfcf7744d8581ef0c0382966, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
